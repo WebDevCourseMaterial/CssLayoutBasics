@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Margin padding</title>
+    <style>
+      body {
+      }
+      .wrapper {
+        margin: 50px 100px 0 25px;
+        padding: 40px 10px 100px;
+        border: 2px solid blue;
+      }
+      .wrapper div {
+        border: 1px solid #222;
+        font-size: 150%;
+        font-weight: bold;
+        line-height: 150px;
+        text-align: center;
+        opacity: .7;
+      }
+      .wrapper > div:nth-child(1) {
+        background-color: yellow;
+        padding: 40px;
+      }
+      .wrapper > div:nth-child(2) {
+        background-color: #d00;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .wrapper > div:nth-child(3) {
+        background-color: rgb(0,100,255);
+        border-width: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>Box 1</div>
+      <div>Box 2</div>
+      <div>Box 3</div>
+    </div>
+  </body>
+</html>
