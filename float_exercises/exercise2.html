@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Exercise 2</title>
+    <style>
+      body {
+        font: 2em "Arial", san-serif;
+      }
+      .title {
+        font: bold 1.2em "Consolas", monotype;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .main {
+        /* Add a 50px margin around the top, left, and right. */
+        margin-bottom: 0;
+      }
+      #header {
+        font: bold 1.2em "Consolas", monotype;
+        font-weight: bold;
+        background-color: gray;
+      }
+      .row:nth-child(even) {
+        background-color: lightgray;
+      }
+      .row {
+        border: 1px solid black;
+      }
+      .row > div {
+        /* Add left and right margin of 20px. */
+      }
+      .row > div:nth-of-type(1) {
+        color: blue;
+      }
+      .row > div:nth-of-type(2) {
+        color: rgb(150,0,0);
+      }
+      .row > div:nth-of-type(3) {
+        color: hsl(90, 90%, 20%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">Fisher, David Fall 2012-2013</div>
+      <div id="header" class="row">
+        <div>Course</div>
+        <span>Description</span>
+        <div>Room</div>
+        <div>Time</div>
+      </div>
+      <div class="row">
+        <div>CSSE290</div>
+        <span>WebDev</span>
+        <div>O157</div>
+        <div>TR/8-9</div>
+      </div>
+      <div class="row">
+        <div>ME430</div>
+        <span>Mechatronics</span>
+        <div>C111</div>
+        <div>MTR/1-2</div>
+      </div>
+      <div class="row">
+        <div>ME430</div>
+        <span>Mechatronics</span>
+        <div>C111</div>
+        <div>MTR/3-4</div>
+      </div>
+      <div class="row">
+        <div>ROBO410</div>
+        <span>Class session</span>
+        <div>Myers</div>
+        <div>W/7-9</div>
+      </div>
+      <div class="row">
+        <div>CSSE490</div>
+        <span>Android Dev</span>
+        <div>G219</div>
+        <div>MTRF/7</div>
+      </div>
+      <div class="row">
+        <div>Meeting</div>
+        <span>Blimp team</span>
+        <div>C111</div>
+        <div>W6</div>
+      </div>
+      <div class="row">
+        <div>Meeting</div>
+        <span>Turbine team</span>
+        <div>C111</div>
+        <div>T5</div>
+      </div>
+      <div class="row">
+        <div>Meeting</div>
+        <span>ME430 weekly</span>
+        <div>E104</div>
+        <div>W3</div>
+      </div>
+    </div>
+  </body>
+</html>

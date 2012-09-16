@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Inline relative</title>
+    <style>
+      .wrapper {
+        border: 2px solid blue;
+      }
+      .wrapper > div {
+        background-color: yellow;
+        font: bold 1.5em Arial, san-serif;
+        opacity: .7;
+        text-align: center;
+      }
+      .box-model-properties {
+        border: 1px solid #222;
+        margin: 0 50px;
+        padding: 0 50px;
+      }
+      .layout-properties {
+        right: 100px;
+        top: 20px;
+        height: 100px;
+      }
+      .display-position {
+        display: inline;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    Lorem ipsum.<br>
+    <div class="wrapper">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper egestas est, in hendrerit magna ultricies ac. Aliquam aliquet, velit in volutpat adipiscing, nibh lorem sagittis dui, in consequat sapien augue eget magna. Sed feugiat nulla at quam tempus adipiscing. Sed a tellus eget erat ultrices volutpat. Nunc ac mi magna. Suspendisse fringilla lacinia mollis. Nunc metus eros, commodo eget consectetur ac, fringilla non libero. Integer euismod tempus luctus.
+      <div class="box-model-properties layout-properties display-position">inline relative</div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper egestas est, in hendrerit magna ultricies ac. Aliquam aliquet, velit in volutpat adipiscing, nibh lorem sagittis dui, in consequat sapien augue eget magna. Sed feugiat nulla at quam tempus adipiscing. Sed a tellus eget erat ultrices volutpat. Nunc ac mi magna. Suspendisse fringilla lacinia mollis. Nunc metus eros, commodo eget consectetur ac, fringilla non libero. Integer euismod tempus luctus.
+  </body>
+</html>
