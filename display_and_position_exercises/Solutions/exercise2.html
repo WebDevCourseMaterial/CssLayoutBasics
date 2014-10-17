@@ -29,9 +29,9 @@
         background-color: rgb(0,100,255);
         position: absolute;
         padding: 0 50px;
-        display: inline;
-        height: auto;
-        top: -35px;
+        /*display: inline; Note, setting the display property here would be pointless since position: absolute ignores the display property. */
+        height: auto; /* Reset the default value */
+        top: -35px; /* Put the box above the top. */
         right: -2px;
       }
     </style>

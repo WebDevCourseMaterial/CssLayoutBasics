@@ -7,7 +7,7 @@
     <style>
       .wrapper {
         border: 2px solid blue;
-        position: relative;
+        position: relative; /* Added the relative rule for you already to be nice. */
       }
       .wrapper > div {
         width: 100px;
@@ -19,12 +19,17 @@
       }
       .wrapper > div:nth-child(1) {
         background-color: yellow;
+        /* Add a position rule. */
       }
       .wrapper > div:nth-child(2) {
         background-color: #d00;
+        /* Add a position rule. */
       }
       .wrapper > div:nth-child(3) {
         background-color: rgb(0,100,255);
+        /* Add a padding of 0 top and bottom, 50px left and right. */
+        /* Add a rule to put the height property back to the original default value (how?). */
+        /* Add other rules as necessary. */
       }
     </style>
   </head>

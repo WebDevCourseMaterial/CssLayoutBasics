@@ -7,6 +7,9 @@
     <style>
       .wrapper {
         border: 2px solid blue;
+		/* For Box 3 to work you will need to add a rule here to make the wrapper positioned.
+		   Recall that children that are absolute are relative to their parent ONLY if
+		   the parent is *positioned*.  Right now the wrapper is position:static by default. */
       }
       .wrapper > div {
         width: 100px;
@@ -18,12 +21,17 @@
       }
       .wrapper > div:nth-child(1) {
         background-color: yellow;
+		/* Add a padding rule of 50px. */
+		/* Add other rules as necessary to get the correct result. */
+		/* For your learning try both an inline and inline-block rule. */
       }
       .wrapper > div:nth-child(2) {
         background-color: #d00;
+		/* Add rules as necessary. */
       }
       .wrapper > div:nth-child(3) {
         background-color: rgb(0,100,255);
+		/* Add rules as necessary. */
       }
     </style>
   </head>
